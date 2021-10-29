@@ -1,0 +1,22 @@
+
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family:Kanit;
+  background-color: rgb(226, 226, 226);
+  scroll-behavior: smooth;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+
+* {
+  padding: 0;
+  margin: 0;
+}
+

@@ -1,0 +1,29 @@
+.banner {
+    margin-top: -80px;
+    height: 80vh ;
+    background: url('../public/banner-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container{
+    display: flex;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner h1{
+    color: rgb(99, 99, 99);
+}
+.sec1{
+    display: flex;
+    height: 100vh;
+    background-color: rgb(226, 226, 226);
+    align-items: center;
+    justify-content: center;   
+}
+
+.sec1 h1 {
+    color:darkgrey
+}
