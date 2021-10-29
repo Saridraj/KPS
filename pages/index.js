@@ -36,13 +36,7 @@ export default function Home() {
               </div>
           </div>
         </div>
-        <div className={styles.boxtosec1}>
-            <Link href="/#sec1" >
-              <button className={styles.tosec1}>เยี่ยมชมโรงเรียน <br />
-                <div className={styles.icontosec1}><FiChevronDown/></div>
-              </button>
-            </Link>
-        </div>
+        
           
       </div>
     </div>
