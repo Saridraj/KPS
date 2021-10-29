@@ -186,5 +186,20 @@
         font-family: Kanit;
     }
 
+
+    .Brand h1{
+        font-weight: lighter;
+        color: rgb(0, 140, 255);
+        font-size: 20px;
+       
+    }
+
+    .Brand h2{
+        font-weight: lighter;
+        color: rgb(99, 99, 99);
+        font-family: Kanit;   
+        
+    }
+
     
 }
