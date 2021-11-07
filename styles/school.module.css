@@ -17,14 +17,134 @@
     color: rgb(99, 99, 99);
 }
 
-.sec1{
+.sec0{
     display: flex;
-    height: 100vh;
-    background-color: rgb(226, 226, 226);
-    align-items: center;
-    justify-content: center;   
+    text-align: center;
+    vertical-align: middle;
+    margin-top: -100px;
 }
 
-.sec1 h1 {
-    color:darkgrey;
+.data1{
+    width: 800px;
+    height: 400px;
+    background-color: white;
+    margin: 15px;
+    padding-top: 20px;
+    box-shadow: 5px 7px 10px;
+    border-radius: 20px;
+    
+    
+}
+
+.data2{
+    width: 800px;
+    height: 400px;
+    background-color: white;
+    margin: 15px;
+    box-shadow: 5px 7px 10px;
+    border-radius: 20px;
+    padding-top: 20px;
+}
+
+.data3{
+    width: 800px;
+    height: 400px;
+    background-color: white;
+    margin: 15px;
+    box-shadow: 5px 7px 10px;
+    border-radius: 20px;
+    padding-top: 20px;
+}
+
+.sec1{
+    display: flex;
+}
+
+.sec1box1 {
+    background-color: white;
+    background-repeat: no-repeat; 
+    box-shadow: 5px 7px 10px;
+    border-radius: 20px;
+    width: 800px;
+    height: 400px;
+    margin: 15px;
+    padding: 20px;
+}
+
+.sec1box1 h3 {
+    color: rgb(0, 140, 255);
+    font-size: 20px;
+}
+
+.sec1box1 ul li {
+    margin-left: 10px;
+    color: rgb(88, 88, 88);
+    font-size: 17px;
+}
+
+@media screen and (max-width:960px){
+
+    .sec0{
+        margin-top: 0;
+        height: auto;
+        align-items: center;
+        display: grid;
+        justify-self: center;
+        margin-top: -100px;
+    }
+
+    .data1{
+        width: auto;
+        height: auto; 
+        margin: 10px;
+        padding: 20px;  
+    } 
+
+    .data2{
+        width: auto;
+        height: auto;  
+        margin: 10px;
+        padding: 20px;
+    }
+
+    .data3{
+        width: auto;
+        height: auto;
+        margin: 10px;
+        padding: 20px;
+    }
+
+    .sec1{
+        margin-top: 0;
+        height: auto;
+        align-items: center;
+        display: inline-block;
+        justify-content: center;
+
+    }
+
+
+    .sec1box1 {
+        border-radius: 20px;
+        width: auto;
+        height: auto;
+        margin: 10px;
+        padding: 20px;
+    }
+
+    .sec1box1 h3 {
+        color: rgb(0, 140, 255);
+        
+    }
+    
+    .sec1box1 ul li {
+        color: rgb(88, 88, 88);
+        font-size: 13px;
+    }
+
+    
+
+
+    
+    
 }
