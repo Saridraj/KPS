@@ -1,6 +1,6 @@
 .banner {
     margin-top: -80px;
-    height: 80vh ;
+    height: 50vh ;
     background: url('../public/banner-bg.jpg');
     background-size: cover;
     background-repeat: no-repeat;
@@ -17,13 +17,47 @@
     color: rgb(99, 99, 99);
 }
 .sec1{
-    display: flex;
-    height: 100vh;
+    display: grid;
+    padding: 20px;
+    height: auto;
     background-color: rgb(226, 226, 226);
     align-items: center;
     justify-content: center;   
 }
 
 .sec1 h1 {
-    color:darkgrey
+    color:rgb(44, 44, 44)
+}
+
+.sec1 h3 {
+    color:rgb(44, 44, 44)
+}
+
+.contact{
+    padding: 40px;
+    width: 900px;
+    height: auto;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px;
+}
+
+.contactmap{
+    width:800;
+    height: 600;
+    border: 0;
+}
+
+@media screen and (max-width:960px){
+    .contact{
+        padding: 40px;
+        width: 90vw;
+        height: auto;
+        border-radius: 20px;
+        background-color: white;
+        box-shadow: 0 0 10px;
+    }
+
+
+    
 }

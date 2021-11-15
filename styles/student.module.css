@@ -1,6 +1,8 @@
+
+
 .banner {
     margin-top: -80px;
-    height: 80vh ;
+    height: 50vh ;
     background: url('../public/banner-bg.jpg');
     background-size: cover;
     background-repeat: no-repeat;
@@ -19,12 +21,21 @@
 
 .sec1{
     display: flex;
-    height: 100vh;
-    background-color: rgb(226, 226, 226);
+    padding: 20px;
+    background-color: white;
     align-items: center;
     justify-content: center;   
 }
 
+.sec1table{
+    width: 80vw;
+}
+
 .sec1 h1 {
     color:darkgrey
+}
+
+@media screen and (max-width:960px){
+
+    
 }

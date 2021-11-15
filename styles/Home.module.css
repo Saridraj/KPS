@@ -75,6 +75,19 @@
     background-repeat: no-repeat;
 }
 
+.sec2pic1{
+    margin-right: 30px;
+    border-radius: 20px;
+}
+
+.sec2text1{
+    margin-left: 100px;
+}
+
+.sec2text1 h3{
+    color: rgb(99, 99, 99);
+}
+
 
 .sec3{
     justify-content: center;
@@ -162,16 +175,7 @@
         background-size: cover;
     }
 
-    .sec2{
-        margin-top: 0;
-        height: auto;
-        align-items: center;
-        display: inline-block;
-        justify-content: center;
-        background: url('../public/banner-bg.jpg');
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
+  
 
     .sec3picset1{
     display: grid;
