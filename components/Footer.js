@@ -1,6 +1,6 @@
 import React from 'react'
 import footerStyles from '../styles/Footer.module.css'
-import Image from 'next/Image'
+import Image from 'next/image'
 import Link from 'next/link'
 
 function Footer() {
