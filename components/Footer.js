@@ -39,7 +39,7 @@ function Footer() {
 
                 </div>
                 <div className={footerStyles.footer3}>
-                    <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fweb.facebook.com%2Fkhokprongwittayakhom%2Fphotos%2F%3Fref%3Dpage_internal&tabs=timeline&width=300&height=200&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="300" height="200" scrolling="no" frameBorder="0" allowFullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+                    <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fweb.facebook.com%2Fkhokprongwittayakhom%2Fphotos%2F%3Fref%3Dpage_internal&tabs=timeline&width=300&height=200&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="300" height="200" scrolling="no"  allowFullScreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
                 </div>
             </div>
             <div className={footerStyles.footer4}>
