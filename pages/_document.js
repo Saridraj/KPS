@@ -1,5 +1,5 @@
 import Document, { Head, Html, Main, NextScript } from 'next/document'
-import Facebook from '../components/Facebook.js'
+
 
 export default class MyDocument extends Document {
 
@@ -17,7 +17,7 @@ render() {
     <body>
        <Main />
        <NextScript />
-       <Facebook />
+       
     </body>
     </html>
   )
