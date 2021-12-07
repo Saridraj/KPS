@@ -5,7 +5,7 @@ import Footer from '../components/Footer.js'
 import Image from 'next/image'
 import Carousel from 'react-bootstrap/Carousel'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Facebook from '../components/Facebook.js'
+
 
 export default function Home() {
 
@@ -122,7 +122,6 @@ export default function Home() {
         </div>
       </section>
       <Footer />
-      <Facebook />
     </>
   )
   
