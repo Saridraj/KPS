@@ -40,7 +40,7 @@ export default function Home() {
       </div>
 
 
-  <!-- ภาพสไลด์แจ้งข่าวสาร--!>
+  /** ภาพสไลด์แจ้งข่าวสาร **/
       <section id="sec1" >
         <div className={styles.sec1}>
           <Carousel>
