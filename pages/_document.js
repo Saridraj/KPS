@@ -1,5 +1,5 @@
 import Document, { Head, Html, Main, NextScript,  } from 'next/document'
-import Script from 'next/script'
+import Script from `next/script`
 export default class MyDocument extends Document {
 
 
@@ -21,7 +21,7 @@ render() {
     <div id="fb-root"></div>
 
 
-    <div id="fb-customer-chat" class="fb-customerchat">
+    <div id="fb-customer-chat" className="fb-customerchat">
     </div>
 
     <Script>
